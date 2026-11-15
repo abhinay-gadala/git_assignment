@@ -1,0 +1,72 @@
+
+GIT COMMANDS AND EXPLANATIONS
+=============================
+
+1. mkdir Git-Assignment
+   Creates a new folder for the project.
+
+2. cd Git-Assignment
+   Navigates into the project directory.
+
+3. touch index.html about.html
+   Creates two HTML files.
+
+4. git init
+   Initializes a new local Git repository.
+
+5. git branch -M main
+   Renames the default branch to main.
+
+6. git status
+   Displays the current status of the repository.
+
+7. git add .
+   Stages all modified and new files for committing.
+
+8. git add about.html
+   Stages only the about.html file.
+
+9. git commit -m "Initial project setup"
+   Saves the initial project state in Git history.
+
+10. git commit -m "Updated about page"
+    Records changes made to the about page.
+
+11. git branch feature
+    Creates a new branch named feature.
+
+12. git switch feature
+    Switches from the main branch to the feature branch.
+
+13. git commit -m "Added feature section to homepage"
+    Records the new feature changes in the feature branch.
+
+14. git switch main
+    Switches back to the main branch.
+
+15. git merge feature
+    Integrates changes from the feature branch into main.
+
+16. git log --oneline --graph --all
+    Displays the commit history and branch structure.
+
+17. git add .gitignore
+    Stages the .gitignore configuration file.
+
+18. git commit -m "Added gitignore configuration"
+    Saves the .gitignore file in the repository.
+
+19. git commit -m "Added additional information"
+    Records an additional change before demonstrating undo.
+
+20. git revert HEAD
+    Creates a new commit that reverses the latest commit.
+
+21. git remote add origin URL
+    Connects the local repository to a GitHub remote repository.
+
+22. git push -u origin main
+    Pushes the main branch to GitHub and sets its upstream.
+
+23. git push origin feature
+    Pushes the feature branch to GitHub.
